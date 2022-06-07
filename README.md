@@ -1,18 +1,11 @@
-Please cite our following papers if you use the data set for your publications. 
-
-BibTeX 
-@misc{AMLSim, author = {Toyotaro Suzumura and Hiroki Kanezashi}, title = {{Anti-Money Laundering Datasets}: {InPlusLab} Anti-Money Laundering DataDatasets}, howpublished = {\url{http://github.com/IBM/AMLSim/}}, year = 2021 }
-
 EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs
 https://arxiv.org/abs/1902.10191
 
 Scalable Graph Learning for Anti-Money Laundering: A First Look
 https://arxiv.org/abs/1812.00076
 
-**Important: Please use the "master" branch for the practical use and testing. Other branches such as "new-schema" are outdated and unstable. [Wiki pages](https://github.com/IBM/AMLSim/wiki/) are still under construction and some of them do not catch up with the latest implementations. Please refer this README.md instead.**
-
 # AMLSim
-This project aims at building a multi-agent simulator of anti-money laundering - namely AML, and sharing synthetically generated data so that researchers can design and implement their new algorithms over the unified data.
+This project aims at building a multi-agent simulator of anti-money laundering - namely AML, and sharing synthetically generated data so that it can be designed and implemented with new algorithms over the unified data.
 
 
 # Dependencies
@@ -41,15 +34,6 @@ This project aims at building a multi-agent simulator of anti-money laundering -
     - powerlaw
     - python-dateutil
 
-
-# Directory Structure
-See Wiki page [Directory Structure](https://github.com/IBM/AMLSim/wiki/Directory-Structure) for details.  
-NOTE: (October 2021): `bin/` folder has been renamed to `target/classes/`
-
-
-
-# Introduction for Running AMLSim
-See Wiki page [Quick Introduction to AMLSim](https://github.com/IBM/AMLSim/wiki/Quick-Introduction-to-AMLSim) for details.
 
 ## 1. Generate transaction CSV files from parameter files (Python)
 Before running the Python script, please check and edit configuration file `conf.json`.
